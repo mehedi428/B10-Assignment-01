@@ -94,3 +94,99 @@ nav button {
     color: white;
     margin-top: 30px;
 }
+
+
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* shared style */
+.title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+
+
+
+/* section-1 */
+.section-1 {
+    margin-top: 70px;
+    border-radius: 16px;
+    padding: 60px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.card {
+    display: flex;
+    padding: 30px;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to bottom right, #f0f0f0, rgb(0, 0, 0, 0.3) );
+}
+
+#card-2 {
+    display: flex;
+    padding: 30px;
+    gap: 50px ; 
+    border-radius: 16px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to bottom right,  rgb(0, 0, 0, 0.3), #f0f0f0 );
+}
+
+
+
+.card-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+.card-content {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin-bottom: 30px;
+}
+
+.btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+
+}
+
