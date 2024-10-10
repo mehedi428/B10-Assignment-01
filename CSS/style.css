@@ -21,6 +21,8 @@ header {
 }
 
 
+
+/* nav section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,7 +49,7 @@ nav button {
 
 }
 
-
+/* banner section */
 .banner {
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -138,7 +140,7 @@ main {
     background: rgba(13, 19, 33, 0.02);
 }
 
-.card {
+.section-1 .card {
     display: flex;
     padding: 30px;
     border-radius: 16px;
@@ -147,7 +149,7 @@ main {
     background-image: linear-gradient(to bottom right, #f0f0f0, rgb(0, 0, 0, 0.3));
 }
 
-#card-2 {
+.section-1 #card-2 {
     display: flex;
     padding: 30px;
     gap: 50px;
@@ -158,7 +160,7 @@ main {
 
 
 
-.card-title {
+.section-1 .card-title {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -170,7 +172,7 @@ main {
 
 }
 
-.card-content {
+.section-1 .card-content {
 
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -182,7 +184,7 @@ main {
     margin-bottom: 30px;
 }
 
-.btn {
+.section-1 .btn {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -190,16 +192,203 @@ main {
 
 }
 
+
+
+/* section-2 */
 .section-2 {
     margin-top: 70px;
 }
 
 .video {
     width: 100%;
-    padding: 30px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 16px;
 }
 
 iframe {
     border-radius: 16px;
 
+}
+
+
+
+/* section-3 */
+.section-3 {
+    margin-top: 100px;
+}
+
+.section-3 .card-box {
+    display: flex;
+    gap: 24px;
+}
+
+.section-3 .card {
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 16px;
+
+}
+
+.section-3 .card h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.section-3 .card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.section-3 .card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+
+.section-3 #box-1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+
+.section-3 #box-2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+
+.section-3 #box-3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+/* section-4 */
+.section-4 {
+    margin-top: 100px;
+}
+
+.section-4 .card {
+    display: flex;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 16px;
+    gap: 30px;
+    margin-bottom: 24px;
+}
+
+.section-4 .card h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.section-4 .card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.section-4 .card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+
+
+
+
+/* section-5 */
+.section-5 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section-5-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    border-radius: 16px;
+
+
+}
+
+.section-5 h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.section-5 p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section-5 form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section-5 form input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#input-wd {
+    width: 500px;
 }
